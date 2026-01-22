@@ -11,9 +11,9 @@ import seaborn as sns
 
 # Step 1: Connect to Snowflake
 conn = snowflake.connector.connect(
-    user= "GOODWIN334",  # Your username
-    password= "nxuxSAAjBfS5Sq2",  # Your password
-    account= "NHGTEJH-WX15778",  # e.g., 'abc12345.us-east-1'
+    user= "XXXXXXXX",  # Your username
+    password= "XXXXXXXX",  # Your password
+    account= "XXXXXXXX",  # e.g., 'abc12345.us-east-1'
     warehouse= "COMPUTE_WH",
     database= "SAAS_R",
     schema= "GOLD"
